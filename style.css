@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: nowrap;
+    background-image: url(./imagenes/Fondo1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.barra_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+}
+.barra_menu img{
+    margin:20px;
+}
+
+.barra_navegacion_lista{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.barra_navegacion_lista a{
+    text-decoration: none;
+    color:#ded6c0;
+    font-weight: bold;
+}
+.barra_navegacion_lista li{
+    transition: transform 1s;
+}
+.barra_navegacion_lista li:hover{
+    transform: scale(1.2,1.2);
+}
+.titulo_principal{
+    width: 40%;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+}
+.titulo_principal h1{
+    padding: 20px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #f5f0ed;
+}
+.titulo_principal p{
+    padding: 20px;
+    font-size: 18px;
+    color: #ded6c0;
+}
+
+/* MAIN MAIN MAIN MAIN MAIN MAAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+#espacio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+}
+.brunch{
+    width: 50%;
+    height: 50vh;
+    background-color: #d03b40;
+    color:#ded6c0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fiestas{
+    width: 50%;
+    height: 50vh;
+    background-color:#ded6c0;
+    color:#d03b40;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fiestas h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.fiestas p{
+    font-size: 18px;
+    padding:20px;
+    width: 50%;
+}
+.brunch h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.brunch p{
+    font-size: 18px;
+    padding:20px;
+    width: 50%;
+}
+#ofertas{
+    background-image: url(./imagenes/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#ofertas h2{
+    padding: 30px;
+    color: #f5f0ed;
+    font-size: 44px;
+    font-weight: bold;
+}
+#ofertas p{
+    width: 30%;
+    color: #ded6c0;
+    padding:20px;
+    font-size: 18px;
+}
+.descubre_productos{
+    border: solid 3px;
+    border-color: #ded6c0;
+    padding: 15px;
+    margin:20px;
+}
+.descubre_productos a{
+    color: #ded6c0;
+    text-decoration: none;
+}
+#productos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; 
+    background-color: #f5f0ed;
+    width: 100%;
+    height: 70vh;
+    justify-items: center;
+    align-items: center;
+}
+.pan{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #241d1b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.tartas{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #241d1b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.dulces{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #241d1b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.ingredientes{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #241d1b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.productos_texto{
+    padding: 20px;
+    width: 50%;
+}
+.productos_imagen{
+    margin:20px;
+}
+.reservas_contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+}
+#reservas{
+    background-color: #ded6c0;
+    color:#d03b40;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#reservas h2{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+#reservas p{
+    width: 50%;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+#contacto{
+    background-color:#d03b40;
+    color:#ded6c0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#contacto h2{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+#contacto p{
+    width: 50%;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #241d1b;
+    position: relative;
+}
+footer p{
+    color: #f5f0ed;
+    font-size: 24px;
+    position: absolute;
+    top:50%;
+    margin-left: 30px;
+}
