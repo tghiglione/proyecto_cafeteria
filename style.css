@@ -265,6 +265,7 @@ footer{
 footer p{
     color: #f5f0ed;
     font-size: 24px;
+    margin-left: 10px;
 }
 /* RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE  */
 
@@ -326,7 +327,7 @@ footer p{
         font-size: 14px;
     }
     #ofertas{
-        height: 80vh;
+        height: 85vh;
     }
     #ofertas p{
         width: 80%;
@@ -381,6 +382,7 @@ footer p{
     #reservas p{
         width: 70%;
         font-size: 18px;
+        padding: 10px;
     }
     #contacto{
         width: 100%;
